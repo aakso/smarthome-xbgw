@@ -24,7 +24,8 @@ My XBGW doesn't allow RCI calls to be made remotely so the included
 `rci_httpserver.py` can be used as a proxy script. Just copy it to XBGW and
 start is as a regular python script. This can be done from the Web UI.
 
-After this configure the plugin. Example: ```
+After this configure the plugin. Example: 
+```
 [xbgw]
 class_name = XBeeGateway
 class_path = plugins.xbgw
@@ -44,7 +45,8 @@ Encoder and decoder are references to a function in `encoders.py` and
 it. The provided files contain few functions I used to encode data for Watkins
 Spa controller.
 
-Example:```
+Example:
+```
 [hottub_set_temp]
 name = Hot tub set target temperature
 type = num
